@@ -12,6 +12,9 @@ if code == "*544#":
 else:
     print("Invalid USSD")
 
+from sys import exit
+exit()
+
 x = int(input("Enter Choice"))
 if x == 1:
     print("1. 1GB 1Hour @sh.10  "
